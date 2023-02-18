@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Some notes about HTML</title>
+</head>
+<body>
+  
 <p>This is My HTML notes</p>
 <p>************* 4:- The job of HTML *************</p>
 <p>HTML = HyperText Markup Language</p>
@@ -42,7 +52,7 @@
 <p>to mke a paragraph we use the <p>some text</p> element</p>
 <p>when we want to write some thing we use it not the <br> tag</p>
 <p>we use it beacause we can add classes to it and style it later on with classes</p>
-<p><p>This words inside a paragraph tag</p>
+<><p>This words inside a paragraph tag</p>
 
 <p>*************** 8:-lots of elements **************</p>
 <mark>Highlighted word</mark>
@@ -89,3 +99,199 @@
 <p><strong>Note:</strong> This has a much higher denisty than air. BAsically the opposite of helium <mark>Crazy!</mark></p>
 
 
+<p>*********** 11:- block and inline ***************</p>
+<p>the difference between br a p elements that br just break the line not any thing else but the p tag contain the paragraphs and make a block around them</p>
+<p>this block has a height and a widtth and also has a margin below it</p>
+<p>there are a lot of elements that do that an dthese elements called block elements</p>
+<p>and the elements that don't create that block around called inline elements</p>
+<h3><mark>some of the block elements</mark></h3>
+<p>ul and ol for lists</p>
+<p>h1 : h6 for headings</p>
+<p>video for video player</p>
+<p>div for a generic block</p>
+<p>table for table</p>
+<br>
+<h3><mark>some of the inline elements</mark></h3>
+<p>br for breaking the line</p>
+<p>em and strong for emphasis</p>
+<p>mark for highlighting</p>
+<p>a for hyper text link</p>
+<p>img for imsge</p>
+<p>span for generic inline</p>
+
+
+<p>*********** 11:- divs ***************</p>
+<div>The div is short for division, because that's what this element is for—you can use it to divide up the page into different sections.</div>
+
+<p>Like the paragraph p element, the division div element has an invisible box around it—and just like p, it can have a border, a margin, a width, a height, and so on.</p>
+<p>But a p element is specifically meant to contain text. In contrast, the div element is a generic container for whatever other elements you might want to put inside. You can use the div element to organize the content and divide the page into sections.</p>
+<br>
+<div>
+  <p>call me ishmael</p>
+  <p>just don't call me late for dinner</p>
+</div>
+<br>
+<p>The div element is a super important one, and it's used a lot in HTML to help lay out and organize pages. We aren't going to use the div element much in this lesson, but we'll be coming back to it in the next lesson—so keep it in mind!</p>
+
+
+<p>************** 12- lists and implied close tags *************</p>
+<ul></ul><p>is the tag for unordered list </p>
+<ol></ol><p>is the tag for ordered list </p>
+<li></li><p>is the tag to create a list item </p>
+<p> you can use an unordered list inside a list item inside an ordered list </p>
+<p>you can't use a list item inside a list item and because of that you can skip writing the closing tag of the list item element </p>
+<p>the oredered list element end the unordered list item you have to write the closing tag of them </p>
+
+<p>The p element is another example of an element for which the closing tag is optional.</p>
+
+<p>when you leave off an optional closing tag, it is still implied—that is, the browser will figure out where the element should be closed, even though you didn't explicitly tell it.</p>
+
+
+<h3>the practice of this lesson</h3>
+<ol>
+  <li>Learn HTML
+    <ul>
+      <li>Thing one </li>
+      <li>Thing two </li>
+      <li>Thing three </li>
+    </ul>
+  </li>
+  <li>Learn CSS</li>
+  <li>Learn Python</li>
+  <li>Save the world</li>
+</ol>
+<br>
+
+<p>************** 13:- Nested lists</p>
+<ul>
+  <li>
+    Mammals
+    <ol>
+      <li>Raccoons</li>
+      <li>Gorillas</li>
+    </ol>
+  </li>
+  <li>
+    Reptiles
+    <ol>
+      <li>Iguanas</li>
+      <li>Cobras</li>
+    </ol>
+  </li>
+  <li>
+    Birds
+    <ol>
+      <li>Ostriches</li>
+      <li>Ravens</li>
+    </ol>
+  </li>
+</ul>
+<br>
+
+
+<p>************** 14:- Indentation **************</p>
+<p>Indentation in HTML is not a must and it will not affect the result of the code but it makes the code muh more prettier</p>
+<br>
+
+
+<p>************* 15:-Web Addresses **************</p>
+<p>in the web world these addresses have a technical name which is URL</p>
+<p>URL stands for Uniform Resource Locater</p>
+<ul>
+  <li><strong>UNIFORM</strong> = standrized</li>
+  <li><strong>RESOURCE</strong> = a file or other data object</li>
+  <li><strong>LOCATOR</strong> = address for finding something</li>
+</ul>
+<p>you can write a url like this three examples</p>
+<p>www.somecompany.com</p>
+<p>http://.somecompany.com</p>
+<p>https://.somecompany.com</p>
+
+<p>the first example don't work in HTML only the last two</p>
+
+<a href="https://www.exmple.com"></a>
+<p>this is an anchor tag has a href of a <strong>fully qualified URL</strong></p>
+
+<p>http ,https and file are called protocols</p>
+<p>Protocols means a way for a browser to get something</p>
+<p>A URL consists of (protocol://DomainName/filePath</p>
+<p>if you leave the file path empty you will go to the home page of the website</p>
+<br>
+
+
+<p>************** 16:- links and anchor tag ***********</p>
+<p>the web is build on the idea of hypertext</p>
+<p>it means that you can get text content but also you can get some refrences between them and this is called links</p>
+<p>when you click on a link it redirect you somewhere else regardless it's yours or someone's else</p>
+
+<a href="#">this is the element to create a link in HTML and it stands for anchor</a>
+<p>to make an a element you have to write its destination or the url which the link will go to and you can write this url in the (href) attripute</p>
+<p>An HtML Attribute is an extra peice of data that is added to the element which provide extra information to the element or some instruction</p>
+<p>the attribute consists of (name = "value of the 
+  attribute")</p>
+<p>in the anchor tag the attribute we use is called href and this stands for hypertext refrence</p>
+<p>the a tag is an inline element</p>
+<p>It doesn't create a box on the page. Links normally have the appearance of a specially highlighted piece of text.</p>
+
+<a href="https://www.yputube.com">this is my favourite website</a>
+
+<p>in the webpage if you click on the link it will redirect the page you are currently in to other website or other page</p>
+<p>to avoid that you can use the target attribute which has the value of _blank to make the link open in a new tab</p>
+<br>
+
+<p>************* 17:-Adding Images *************</p>
+
+<p>the img element is the element we use to add an image to the webpage</p>
+<img src="https://placebear.com/250/250" alt="some alternative text">
+<p>the img element is a void or an empty element</p>
+<p>it consists of the openening tag an two attributes the source attribute (src) and the alternative text attribute (alt)</p>
+<br>
+
+
+<p>************* 18:- Files and relative URLs *************</p>
+<p>if you want to put an image in yor website you have to put the link of in the src attribute</p>
+<p>what if the image source is on my pc</p>
+<p>then you just put the file path of the image on your pc in the src tag or for short you can use the relative url</p>
+
+<br>
+
+<p>My favourite things:</p>
+<ol>
+  <li><a href="https://en.wikipedia.org/wiki/Bear">Bears</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Kitten">Kittens</a></li>
+</ol>
+<img src="https://placebear.com/150/150" alt="some bear photo">
+<img src="https://placekitten.com/150/150" alt="some kitten photo">
+<br>
+
+<p>************* 19:- Documents: The DOCTYPE Tag *************</p>
+<p> the doctype tag is a tag that tells the browser the version of the html you are using right now </p>
+<p>you have to write that tag in each single html page to be a complete one</p>
+<p>that its syntax</p>
+<!-- <!DOCTYPE html> -->
+<br>
+
+
+<p>************* 20:- Document: Head and Body *************</p>
+
+<p>a full html page has 2 parts</p>
+<p> every thing you see in the screen lives in the seconed part and this part is called the body</p>
+<p>the first part is called the head and in it we put some crucial pieces of information about the document</p>
+<p>Both he head and the body lives together in a single large element called html</p>
+<p>one of the elements that is written in the head is the title element</p>
+<p>it's the only required element in the head and it give the browser the title of the page you are currently in</p>
+<p>another element in the head is called (style) and this you can put the styles of the elements in the body in it and the code in it's enclosing is written in classes</p>
+<p>the can also contain script tag which makes your web dynamic and run in the browser and this how frontend work</p>
+<p>the head also can include the meta tag which stands for meta data </p>
+<p>it includes some information about the page it self such as keywords for search engines</p>
+<p>there is also information that can be as attribtes in the html tag such as the language of the page (lang)</p>
+  <p>Are head and body required?
+In one sense, no, but in another sense, yes.
+ 
+The grammar of HTML does not require that you literally write a head or body tag in your HTML code. Many web developers do write these. However, if you don't, the browser will attempt to place them into your code itself.
+
+It needs to put the head element around certain elements that belong there, such as title; and to put the body element around the elements that form the document's body. This means that all the head elements must appear first, and the body elements after.
+
+You can't have a head element, such as title, in the middle of your document:</p>
+</body>
+</html>
